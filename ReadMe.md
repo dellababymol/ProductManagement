@@ -1,21 +1,28 @@
-## 1. Project Overview
-Start with a brief introduction to your project. Explain what it does and why it's valuable.
+## 1. Solution Overview
+This solution contains 2 projects
+- Api
+- .net library
 
 ## 2.  Installation Instructions
-Provide clear steps for installing your project. Include any prerequisites, package managers, or commands required.
+* Open project in VS.
+* Restore nuget packages and rebuild.
+* Run the project.
 
 ## 3. Usage Guide
 
-Walk users through how to use your project. Include code examples, API endpoints, and any configuration they need to know.
+API Rnd points
+1. `GET /products` - gets all products.
+2. `GET /products?name={name}` - finds all products matching the specified name.
+3. `GET /products/{id}` - gets the project that matches the specified ID - ID is a GUID.
+4. `POST /products` - creates a new product.
+5. `PUT /products/{id}` - updates a product.
+6. `DELETE /products/{id}` - deletes a product and its options.
 
 ## 4. Configuration
-If your project has configurable options, explain them here. This is where users can customize your project to their needs.
-
+I
 ## 5. Contributing Guidelines
-Detail how others can contribute to your project. Include information about issues, pull requests, and coding standards.
-
 
 ## 6. License
-Specify the license under which your project is shared. This clarifies how others can use your code.
+No specify license involved other than Visual studio. Only microsoft libraries included.
 
 
